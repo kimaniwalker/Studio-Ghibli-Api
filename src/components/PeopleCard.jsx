@@ -3,7 +3,7 @@ import React from 'react';
 const PeopleCard = props => {
     return (
       <div className="card bg-light m-4 rounded-0 shadow">
-        <div className="card-header bg-dark text-white rounded-0 shadow bottom-0">
+        <div className="card-header bg-success text-white rounded-0 shadow bottom-0">
           Name: {props.data.name}
         </div>
         <div className="card-body shadow">
