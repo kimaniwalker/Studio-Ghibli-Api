@@ -48,25 +48,24 @@ class App extends Component {
     return (
       <React.Fragment>
         
-        <div align="center">
+        <div className="bg-success" align="center">
           
           <h1>Studio Ghibli Api</h1>
 
         </div>
 
-        <div className="d-flex justify-content-left">
+        <div className="d-flex justify-content-center bg-danger">
           <button
             className="btn btn-dark btn-md m-2"
             onClick={this.showMovies}
           >Movies</button>
-          </div>
-
-          <div className="d-flex justify-content-left">
-          <button
+           <button
             className="btn btn-dark btn-md m-2"
             onClick={this.showPeople}
           >People</button>
           </div>
+
+          
 
           <List type={this.state.type} list={this.state.list} />
 
