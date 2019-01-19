@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import List from "./components/List.jsx";
 
 const Films_Url = "https://ghibliapi.herokuapp.com/films";
 const People_Url = "https://ghibliapi.herokuapp.com/people"
@@ -66,6 +67,8 @@ class App extends Component {
             onClick={this.showPeople}
           >People</button>
           </div>
+
+          <List type={this.state.type} list={this.state.list} />
 
       </React.Fragment>
       
