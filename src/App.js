@@ -47,9 +47,9 @@ class App extends Component {
     return (
       <React.Fragment>
         
-        <div>
+        <div align="center">
           
-          <h1>Studio Ghibli Api </h1>
+          <h1>Studio Ghibli Api</h1>
 
         </div>
 
